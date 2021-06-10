@@ -13,5 +13,5 @@ This project will make use of Python to explore data related to bike share syste
 bikeshare.py
 
 ### Credits
-Credits to Udacity
+Credits to Udacity and to my employer Telenor
 
