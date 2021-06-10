@@ -184,7 +184,7 @@ def records_per_records(df):
     x=0
     y=4
     while True:
-        answer = input('Do you want to see individual records? \n').lower()
+        answer = input('Do you want to see 5 individual records? \n').lower()
         if answer not in ('yes', 'no'):
             print('Please answer yes or no')
         elif answer == 'yes':
