@@ -170,8 +170,8 @@ def user_stats(df):
         birth_year_max = df['Birth Year'].max().astype('Int64')
         birth_year_min = df['Birth Year'].min().astype('Int64')
         birth_year_common = df['Birth Year'].mode()[0].astype('Int64')
-        print('\nYoungest that have rent a bike is born:', birth_year_max)
-        print('Oldest that have rent a bike is born:', birth_year_min)
+        print('\nYoungest person that have rent a bike is born:', birth_year_max)
+        print('Oldest person that have rent a bike is born:', birth_year_min)
         print('Most common year of birth is:', birth_year_common)
     else:
         print('\nColumn Birth Year does not exist for this choise')
