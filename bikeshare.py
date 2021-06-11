@@ -155,7 +155,7 @@ def user_stats(df):
     print('Counts of different user types:')
     print(user_types.to_string())
         
-    # Display counts of gender if the column exist
+    # Display counts of gender if the column exist in csv-file
     gender_in_column = "Gender" in df
     if gender_in_column == True:
         gender = df['Gender'].value_counts()
@@ -164,7 +164,7 @@ def user_stats(df):
     else:
         print('\nColumn Gender does not exist for this choise')
         
-    # Display earliest, most recent, and oldest year of birth if the column exist
+    # Display earliest, most recent, and oldest year of birth if the column exist in csv-file
     birth_in_column = "Birth Year" in df
     if birth_in_column == True:
         birth_year_max = df['Birth Year'].max().astype('Int64')
